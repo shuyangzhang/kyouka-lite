@@ -8,3 +8,9 @@ logs/
 # env file
 .env
 .docker-env 
+
+# ffmpeg binary files
+ffmpeg/
+
+# output files
+output/
