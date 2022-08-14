@@ -22,7 +22,7 @@ type VoiceInstance struct {
 }
 
 type PlayerSignal struct {
-	command string
-	channel string
-	music   *Music
+	Command string
+	Channel string
+	Music   *Music
 }
