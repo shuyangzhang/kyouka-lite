@@ -7,6 +7,7 @@ import (
 
 func register() {
 	registerCommand(service.Ping, "ping")
+	registerCommand(service.Version, "version")
 }
 
 func registerCommand(service func(*khl.KmarkdownMessageContext, ...string), commandAliases ...string) {
