@@ -9,6 +9,7 @@ import (
 	"github.com/lonelyevil/khl/log_adapter/plog"
 	"github.com/phuslu/log"
 	"github.com/shuyangzhang/kyouka-light/configs"
+	"github.com/shuyangzhang/kyouka-light/handlers"
 )
 
 func main() {
@@ -18,6 +19,8 @@ func main() {
 	}
 
 	app := khl.New(configs.EnvConfigs.Token, plog.NewLogger(&logger))
+
+	handlers.RegisterHandlers(app)
 
 	app.Open()
 
