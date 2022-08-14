@@ -1,0 +1,10 @@
+# editor config files
+.vscode/
+
+# log files
+logs/
+*.log
+
+# env file
+.env
+.docker-env 
