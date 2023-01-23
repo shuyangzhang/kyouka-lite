@@ -8,8 +8,8 @@ import (
 	"github.com/lonelyevil/khl"
 	"github.com/lonelyevil/khl/log_adapter/plog"
 	"github.com/phuslu/log"
-	"github.com/shuyangzhang/kyouka-light/configs"
-	"github.com/shuyangzhang/kyouka-light/handlers"
+	"github.com/shuyangzhang/kyouka-lite/configs"
+	"github.com/shuyangzhang/kyouka-lite/handlers"
 )
 
 func main() {

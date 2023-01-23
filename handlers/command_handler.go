@@ -2,8 +2,8 @@ package handlers
 
 import (
 	"github.com/lonelyevil/khl"
-	"github.com/shuyangzhang/kyouka-light/domain/router"
-	"github.com/shuyangzhang/kyouka-light/tools"
+	"github.com/shuyangzhang/kyouka-lite/domain/router"
+	"github.com/shuyangzhang/kyouka-lite/tools"
 )
 
 func commandHandler(ctx *khl.KmarkdownMessageContext) {

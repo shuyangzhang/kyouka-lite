@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/lonelyevil/khl"
-	"github.com/shuyangzhang/kyouka-light/domain/constant"
-	"github.com/shuyangzhang/kyouka-light/tools"
+	"github.com/shuyangzhang/kyouka-lite/domain/constant"
+	"github.com/shuyangzhang/kyouka-lite/tools"
 )
 
 func Ping(ctx *khl.KmarkdownMessageContext, parameters ...string) {

@@ -3,7 +3,7 @@ package tools
 import (
 	"strings"
 
-	"github.com/shuyangzhang/kyouka-light/configs"
+	"github.com/shuyangzhang/kyouka-lite/configs"
 	"golang.org/x/exp/slices"
 )
 

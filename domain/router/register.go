@@ -2,7 +2,7 @@ package router
 
 import (
 	"github.com/lonelyevil/khl"
-	"github.com/shuyangzhang/kyouka-light/domain/service"
+	"github.com/shuyangzhang/kyouka-lite/domain/service"
 )
 
 func register() {

@@ -3,7 +3,7 @@ package global
 import (
 	"sync"
 
-	"github.com/shuyangzhang/kyouka-light/domain/dto"
+	"github.com/shuyangzhang/kyouka-lite/domain/dto"
 )
 
 var (
